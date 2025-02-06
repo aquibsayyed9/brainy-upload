@@ -1,0 +1,16 @@
+# Ignore environment and secret files
+.env
+client_secrets.json
+service-account.json
+
+# Ignore Python cache and dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# Ignore Docker-related files that should not be versioned
+*.log
+docker-compose.override.yml

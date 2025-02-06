@@ -1,0 +1,9 @@
+services:
+  video-creator:
+    build: .
+    volumes:
+      - ./video_templates:/app/video_templates
+      - ./output:/app/output  # Mount output directory    
+    env_file:
+      - .env
+    restart: always

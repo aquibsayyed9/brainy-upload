@@ -1,0 +1,10 @@
+requests>=2.31.0
+beautifulsoup4
+moviepy==1.0.3
+Pillow>=9.0.0
+google-auth
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.6
+google-api-python-client>=2.0.0
+selenium>=4.9.0
+webdriver_manager>=3.8.0
